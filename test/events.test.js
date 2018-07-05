@@ -96,7 +96,7 @@ describe('events', function() {
   });
 
   it('should emit "forgot::sent" event', function(done) {
-    lockit.removeAllListeners();
+    //lockit.removeAllListeners();
     lockit.on('forgot::sent', function(user) {
       user.name.should.equal('event');
       done();
@@ -110,7 +110,7 @@ describe('events', function() {
   });
 
   it('should emit "forgot::success" event', function(done) {
-    lockit.removeAllListeners();
+    //lockit.removeAllListeners();
 
     lockit.on('forgot::success', function(user) {
       user.name.should.equal('event');
@@ -131,7 +131,7 @@ describe('events', function() {
 
   it('should emit "delete" event', function(done) {
     // remove 'login' event listener
-    lockit.removeAllListeners();
+    //lockit.removeAllListeners();
     lockit.on('delete', function(user) {
       user.name.should.equal('event');
       done();
