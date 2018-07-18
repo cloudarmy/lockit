@@ -31,7 +31,7 @@
     "lockit-forgot-password": "github:cloudarmy/lockit-forgot-password",
     "lockit-login": "github:cloudarmy/lockit-login",
     "lockit-signup": "github:cloudarmy/lockit-signup",
-    "lockit-sql-adapter": "github:cloudarmy/lockit-sql-adapter",
+    "lockit-sql-adapter": "github:cloudarmy/lockit-sql-adapter#sequelize-v5",
     "lockit-utils": "^0.5.3",
     "node.extend": "^2.0.0",
     "sqlite3": "^4.0.1"
