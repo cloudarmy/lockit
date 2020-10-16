@@ -32,9 +32,9 @@
     "lockit-login": "github:cloudarmy/lockit-login",
     "lockit-signup": "github:cloudarmy/lockit-signup",
     "lockit-sql-adapter": "github:cloudarmy/lockit-sql-adapter",
-    "lockit-utils": "^0.5.3",
-    "node.extend": "^2.0.0",
-    "sqlite3": "^4.0.1"
+    "lockit-utils": "github:cloudarmy/lockit-utilities",
+    "node.extend": "^2.0.2",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",
