@@ -34,7 +34,7 @@
     "lockit-sql-adapter": "github:cloudarmy/lockit-sql-adapter#decfaba1617983e62d7fc3122df5f461160e87af",
     "lockit-utils": "github:cloudarmy/lockit-utilities",
     "node.extend": "^2.0.2",
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",
