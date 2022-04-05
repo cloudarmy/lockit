@@ -30,26 +30,27 @@
     "lockit-delete-account": "github:cloudarmy/lockit-delete-account",
     "lockit-forgot-password": "github:cloudarmy/lockit-forgot-password",
     "lockit-login": "github:cloudarmy/lockit-login",
+    "lockit-sendmail": "github:cloudarmy/lockit-sendmail",
     "lockit-signup": "github:cloudarmy/lockit-signup",
     "lockit-sql-adapter": "github:cloudarmy/lockit-sql-adapter#decfaba1617983e62d7fc3122df5f461160e87af",
     "lockit-utils": "github:cloudarmy/lockit-utilities",
-    "node.extend": "^2.0.2",
-    "sqlite3": "^5.0.2"
+    "node.extend": "^2.0.2"
   },
   "devDependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.3",
-    "cookie-session": "^2.0.0-beta.3",
-    "errorhandler": "^1.5.0",
-    "eslint": "^5.0.1",
-    "express": "^4.16.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "errorhandler": "^1.5.1",
+    "eslint": "^8.12.0",
+    "express": "^4.17.3",
     "jade": "^1.11.0",
     "lockit-couchdb-adapter": "github:cloudarmy/lockit-couchdb-adapter",
     "lockit-template-blank": "github:cloudarmy/lockit-template-blank",
-    "mocha": "^5.2.0",
+    "mocha": "^9.2.2",
     "nodemailer-stub-transport": "^1.1.0",
-    "should": "^13.2.1",
+    "should": "^13.2.3",
+    "sqlite3": "^5.0.2",
     "static-favicon": "^2.0.0-alpha",
-    "supertest": "^3.1.0"
+    "supertest": "^6.2.2"
   }
 }
